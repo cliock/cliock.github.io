@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>文章Front-matter 选项详解</title>
+      <link href="posts/29088.html"/>
+      <url>posts/29088.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="文章Front-matter-选项详解"><a href="#文章Front-matter-选项详解" class="headerlink" title="文章Front-matter 选项详解"></a>文章Front-matter 选项详解</h1><p>Front-matter 选项中的所有内容均为非必填的。但我仍然建议至少填写 title 和 date 的值。</p><pre><code>配置选项 | 默认值 | 描述-------|-------|-------title | Markdown 文件标题 | 文章标题，强烈建议填写此选项date | 文件创建时的日期时间 | 发布时间，强烈建议填写此选项，且最好保证全局唯一author | 跟 _config.yml 中的 author | 文章作者 img | featureImages 中的某个值 | 文章特征图，推荐使用图床 (腾讯云、七牛云、又拍云等) 来做图片的路径。如: http://xxx.com/xxx.jpgtop | true | 推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章cover | false | 表示该文章是否需要加入到首页轮播封面中coverImg | 无 | 表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片password | 无 | 文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 password 的值，该值必须是用 SHA256 加密后的密码，防止被他人识破。前提是在主题的 config.yml 中激活了 verifyPassword 选项toc | true | 是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项mathjax | false | 是否开启数学公式支持，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行summary | 无 | 文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要categories | 无 | 文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类tags | 无 | 文章标签，一篇文章可以多个标签keywords | 文章标题 | 文章关键字，SEO 时需要reprintPolicy | cc_by | 文章转载规则，可以是 cc_by,cc_by_nd,cc_by_sa,cc_by_nc,cc_by_nc_nd,cc_by_nc_sa,cc0,noreprint 或 pay 中的一个</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>本博客搭建详细教程</title>
+      <link href="posts/6.html"/>
+      <url>posts/6.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="本博客详细教程地址："><a href="#本博客详细教程地址：" class="headerlink" title="本博客详细教程地址："></a>本博客详细教程地址：</h2><p>系列教程：</p><ul><li><a href="http://sitoi.cn/posts/6666.html">基于 Hexo GitHub 从零开始搭建个人博客（一）：环境准备篇</a></li><li><a href="https://sitoi.cn/posts/27801.html">基于 Hexo GitHub 从零开始搭建个人博客（二）：搭建基础篇</a></li><li><a href="https://sitoi.cn/posts/63466.html">基于 Hexo GitHub 从零开始搭建个人博客（三）：Matery 主题（DIY 版）详细配置教程，附博客源码</a></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
